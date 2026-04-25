@@ -1,0 +1,9 @@
+project:
+  output-dir: _docs
+
+website:
+  title: "shm-anomaly-detection"
+  site-url: "https://justforprogramming07-code.github.io/shm-anomaly-detection"
+  description: "Anomaly detection on KW51 railway bridge dataset using machine learning"
+  repo-branch: main
+  repo-url: "https://github.com/justforprogramming07-code/shm-anomaly-detection"

@@ -1,0 +1,33 @@
+[build-system]
+requires = ["setuptools>=64"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "shm-anomaly-detection"
+dynamic = ["version"]
+description = "Anomaly detection on KW51 railway bridge dataset using machine learning"
+readme = "README.md"
+requires-python = ">=3.10"
+license = {text = "Apache-2.0"}
+authors = [{name = "Huzaifa Panchi", email = "justforprogramming07@gmail.com"}]
+keywords = ['nbdev']
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3 :: Only",
+]
+dependencies = []
+
+[project.urls]
+Repository = "https://github.com/justforprogramming07-code/shm-anomaly-detection"
+Documentation = "https://justforprogramming07-code.github.io/shm-anomaly-detection/"
+
+[project.entry-points.nbdev]
+shm_anomaly_detection = "shm_anomaly_detection._modidx:d"
+
+[tool.setuptools.dynamic]
+version = {attr = "shm_anomaly_detection.__version__"}
+
+[tool.setuptools.packages.find]
+include = ["shm_anomaly_detection"]
+
+[tool.nbdev]
