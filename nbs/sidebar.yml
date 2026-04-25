@@ -1,0 +1,7 @@
+website:
+  sidebar:
+    contents:
+      - index.ipynb
+      - 00_core.ipynb
+      - 01_data_cleaning.ipynb
+      - 02_isolation_forest.ipynb
