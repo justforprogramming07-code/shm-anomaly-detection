@@ -46,6 +46,6 @@ vibration pattern after that date.
 
 # How is it structured?
 
-The project has 3 notebooks the first one Is where we do the data
-cleaning the second one is where the isolatino forest pipeline is there
-and the third one is where the autoencoder pipeline is there
+The project has 3 notebooks: the first is for data cleaning, the second
+contains the Isolation Forest pipeline, and the third contains the
+autoencoder pipeline.
